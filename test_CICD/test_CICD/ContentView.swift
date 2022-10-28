@@ -14,7 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
-            fatalError("빌드실패해라!")
+            "빌드실패할겁니다"
         }
         .padding()
     }
