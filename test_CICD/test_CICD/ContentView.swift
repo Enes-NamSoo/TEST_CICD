@@ -14,6 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            
+            Button {
+                fatalError("errorororororororo")
+            } label: {
+                Text("error!")
+            }
         }
         .padding()
     }
