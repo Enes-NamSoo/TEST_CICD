@@ -4,7 +4,11 @@
 echo "🟢🟢🟢🟢🟢🟢🟢🟢🟢"
 echo "🟢${CONFIGURATION}🟢"
 
-find "${CI_ARCHIVE_PATH}/dSYMs/" test_CICD.app.dSYM
+echo "🟢archive🟢"
+find "${CI_ARCHIVE_PATH}" test_CICD.app.dSYM
+
+echo "🟢derived🟢"
+find ${CI_DERIVED_DATA_PATH} dSYMs -type d
 
 set -e
 
