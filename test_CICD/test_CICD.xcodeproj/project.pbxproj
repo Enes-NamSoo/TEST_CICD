@@ -82,7 +82,6 @@
 				067EE2A5290BCBB6005EBF25 /* Sources */,
 				067EE2A6290BCBB6005EBF25 /* Frameworks */,
 				067EE2A7290BCBB6005EBF25 /* Resources */,
-				06987F7B291DEA9E00E07E99 /* Firebase Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -144,28 +143,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		06987F7B291DEA9E00E07E99 /* Firebase Crashlytics */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Firebase Crashlytics";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nchmod +x ./FBCrashlyticsRunScript.sh\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		067EE2A5290BCBB6005EBF25 /* Sources */ = {
