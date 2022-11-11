@@ -3,10 +3,9 @@
 #!/bin/sh
 echo "🟢🟢🟢🟢🟢🟢🟢🟢🟢"
 
-echo "tree install.."
-apt install tree
-
-tree -L 2 -f -N
+echo "find..."
+find / GoogleService-Info.plist -type f
+find / firebase-ios-sdk -type d
 
 #set -e // 오류발생시 종료하는 옵션
 if [[ -n $CI_ARCHIVE_PATH ]];
