@@ -162,7 +162,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./FBCrashlyticsRunScript.sh\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nchmod +x ./FBCrashlyticsRunScript.sh\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
