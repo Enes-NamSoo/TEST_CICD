@@ -82,6 +82,7 @@
 				067EE2A5290BCBB6005EBF25 /* Sources */,
 				067EE2A6290BCBB6005EBF25 /* Frameworks */,
 				067EE2A7290BCBB6005EBF25 /* Resources */,
+				062AE8BA291E18A10005BF7C /* Firebase Run Crash Script */,
 			);
 			buildRules = (
 			);
@@ -143,6 +144,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		062AE8BA291E18A10005BF7C /* Firebase Run Crash Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Firebase Run Crash Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./FBCrashlyticsRunScript.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		067EE2A5290BCBB6005EBF25 /* Sources */ = {

@@ -20,6 +20,13 @@ struct ContentView: View {
             } label: {
                 Text("error!")
             }
+            
+            Spacer().frame(height: 30)
+            Button {
+                fatalError("error2!!!222222")
+            } label: {
+                Text("error!")
+            }
         }
         .padding()
     }
