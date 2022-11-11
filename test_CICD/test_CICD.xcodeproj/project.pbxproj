@@ -148,6 +148,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		062AE8BA291E18A10005BF7C /* Firebase Run Crash Script */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
