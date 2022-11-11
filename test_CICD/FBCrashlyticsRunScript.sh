@@ -4,10 +4,19 @@
 echo "🟢🟢🟢🟢🟢🟢🟢🟢🟢"
 
 echo "find..."
-find . GoogleService-Info.plist -type f
+find .. GoogleService-Info.plist -type f
 
-find ${CI_ARCHIVE_PATH} firebase-ios-sdk -type d
-find . firebase-ios-sdk -type d
+echo "🟢 find... project path "
+find ${CI_PROJECT_FILE_PATH} firebase-ios-sdk -type d
+
+echo "🟢 find... build path "
+find ${BUILD_DIR%Build} firebase-ios-sdk -type d
+
+echo "🟢 find... derived path "
+find ${CI_DERIVED_DATA_PATH} firebase-ios-sdk -type d
+
+echo "🟢 find... back path "
+find .. firebase-ios-sdk -type d
 
 #set -e // 오류발생시 종료하는 옵션
 if [[ -n $CI_ARCHIVE_PATH ]];
