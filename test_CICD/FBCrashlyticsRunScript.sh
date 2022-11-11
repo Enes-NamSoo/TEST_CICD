@@ -4,7 +4,7 @@
 echo "🟢🟢🟢🟢🟢🟢🟢🟢🟢"
 
 echo "tree install.."
-yum install tree
+apt install tree
 
 tree -L 2 -f -N
 
