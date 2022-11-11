@@ -1,7 +1,8 @@
 
 
 #!/bin/sh
-set -e // 오류발생시 종료하는 옵션
+echo "🟢🟢🟢🟢🟢🟢🟢🟢🟢"
+#set -e // 오류발생시 종료하는 옵션
 if [[ -n $CI_ARCHIVE_PATH ]];
 then
 echo "Found valid archive path, trying to upload dSYMs."
@@ -24,3 +25,4 @@ fi
 fi
 
 echo "finish crashlytics run"
+echo "🟢🟢🟢🟢🟢🟢🟢🟢🟢"
